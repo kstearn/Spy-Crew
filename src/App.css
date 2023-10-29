@@ -1,0 +1,17 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+.Member {
+  background: blanchedalmond;
+  text-align: center;
+  padding: 15px;
+}
+
+.MembersList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
