@@ -6,9 +6,6 @@ import ReadMembers from './routes/ReadMembers.jsx';
 
 export default function App() {
   
-
-
-  
   return (
     <div className="App">
       <h1>Title</h1>

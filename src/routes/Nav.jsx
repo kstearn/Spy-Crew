@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div>
+    <div className="nav">
       <nav>
         <ul>
           <li className="home-link" key="home-button">

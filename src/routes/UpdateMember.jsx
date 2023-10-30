@@ -41,6 +41,17 @@ const UpdateMember = () => {
 
     window.location = "/";
   }
+
+  const deleteMember = async (event) => {
+    event.preventDefault();
+
+    await supabase
+      .from('Crew')
+      .delete()
+      .eq('id', params.id); 
+
+    window.location = "/";
+  }
   
   return (
     <div>
@@ -65,7 +76,7 @@ const UpdateMember = () => {
           
             <button onClick={updateMember} >Update</button>
           
-            <button className="deleteButton">Delete</button>
+            <button className="deleteButton" onClick={deleteMember}>Delete</button>
         </form>
       </div>
     </div>
