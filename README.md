@@ -2,7 +2,7 @@
 
 Submitted by: **Katelyn Stearn**
 
-This web app: **allows users to create members of a spy crew. Users can specify name, intelligence, and specialization. Users can navigate to a dedicated page for each spy, and can edit or delete members from the crew.**
+This web app: **allows users to create members of a spy crew. Users can specify name, intelligence, and specialization. Users can navigate to a dedicated page for each spy, and can edit or delete members from the crew. Spy crew members are stored in a Supabase table which is updated with each action.**
 
 Time spent: **7** hours spent in total
 
@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Project Walkthrough](https://i.imgur.com/EztkY43.gif)
 
 
 GIF created with ...  
