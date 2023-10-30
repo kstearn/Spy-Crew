@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Nav />}>
           <Route index={true} element={<App />} />
           <Route index= {false} path="/create" element={<CreateMember />} />
-          <Route index={false} path="/update" element={<UpdateMember />} />
+          <Route index={false} path="/update/:id" element={<UpdateMember />} />
           <Route index={false} path="/details/:id" element={<CrewDetail />}
 />        
         </Route>

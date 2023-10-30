@@ -10,6 +10,10 @@ const Member = ({id, name, intelligence, specialization}) => {
       
       <p>Intelligence: {intelligence}</p>
       <p>Specialization: {specialization}</p>
+      <Link
+        to={`/update/${id}`}>
+        <button>Update</button>
+      </Link>
     </div>
   )
 }
