@@ -25,20 +25,22 @@ const CreateMember = () => {
         { name: member.name, intelligence: member.intelligence, specialization: member.specialization },
       ])
       .select();
+
+    window.location = "/";
   };
   
   
   return(
     <div>
       <form>
-        <label>Name</label>
-          <input type="text" name="name" value={member.name} onChange={handleChange} />
+        <label>Name: </label>
+          <input type="text" name="name" value={member.name} onChange={handleChange} /> <br/>
 
-        <label>Intelligence</label>
-        <input type="text" name="intelligence" value={member.intelligence} onChange={handleChange} />
+        <label>Intelligence: </label>
+        <input type="text" name="intelligence" value={member.intelligence} onChange={handleChange} /> <br />
 
-        <label>Specialization</label>
-        <input type="text" name="specialization" value={member.specialization} onChange={handleChange} />
+        <label>Specialization: </label>
+        <input type="text" name="specialization" value={member.specialization} onChange={handleChange} /> <br />
 
         <button onClick={createMember}>Submit</button>
       </form>

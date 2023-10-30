@@ -59,6 +59,7 @@ const UpdateMember = () => {
         <h2>{member.name}</h2>
         <p>Current intelligence: {member.intelligence}</p>
         <p>Current specialization: {member.specialization}</p>
+        <br />
       </div>
       <div>
         <form>
@@ -72,7 +73,7 @@ const UpdateMember = () => {
 
             <label for="specialization">New Specialization</label><br />
           <input type="text" id="specialization" name="specialization" value={newMember.specialization} onChange={handleChange}/>
-            <br/>
+            <br/><br/>
           
             <button onClick={updateMember} >Update</button>
           

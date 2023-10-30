@@ -23,9 +23,9 @@ const CrewDetail = () => {
   
   return (
     <div>
-      <h2>{member.name}</h2>
-      <p>{member.intelligence}</p>
-      <p>{member.specialization}</p>
+      <h2>Special Agent {member.name}</h2>
+      <p>Intelligence: {member.intelligence}</p>
+      <p>Specialization: {member.specialization}</p>
     </div>
   )
 }
