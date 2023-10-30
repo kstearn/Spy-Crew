@@ -32,15 +32,16 @@ const CreateMember = () => {
   
   return(
     <div>
+      <h2>Create a Spy</h2>
       <form>
         <label>Name: </label>
-          <input type="text" name="name" value={member.name} onChange={handleChange} /> <br/>
+          <input type="text" name="name" value={member.name} onChange={handleChange} /> <br/><br/>
 
         <label>Intelligence: </label>
-        <input type="text" name="intelligence" value={member.intelligence} onChange={handleChange} /> <br />
+        <input type="number" min="1" max="10" step="1" name="intelligence" value={member.intelligence} onChange={handleChange} /> <br /><br/>
 
         <label>Specialization: </label>
-        <input type="text" name="specialization" value={member.specialization} onChange={handleChange} /> <br />
+        <input type="text" name="specialization" value={member.specialization} onChange={handleChange} /> <br /><br/>
 
         <button onClick={createMember}>Submit</button>
       </form>

@@ -2,7 +2,7 @@ import CrewDetail from '../components/CrewDetail.jsx';
 
 const DetailView = () => {
   return(
-    <div>
+    <div className="content">
       <CrewDetail />
     </div>
   )

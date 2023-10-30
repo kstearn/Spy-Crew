@@ -4,7 +4,7 @@ Submitted by: **Katelyn Stearn**
 
 This web app: **allows users to create members of a spy crew. Users can specify name, intelligence, and specialization. Users can navigate to a dedicated page for each spy, and can edit or delete members from the crew.**
 
-Time spent: **5** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+
 
 ## Video Walkthrough
 
@@ -33,16 +33,15 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
+
 GIF created with ...  
-<!-- Recommended tools:
+
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+
 
 ## License
 

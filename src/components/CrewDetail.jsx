@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import {useParams} from 'react-router-dom';
+import {useParams, Link} from 'react-router-dom';
 import {supabase} from '../client.jsx';
 
 const CrewDetail = () => {
@@ -22,10 +22,14 @@ const CrewDetail = () => {
   }, []);
   
   return (
-    <div>
+    <div className="content">
       <h2>Special Agent {member.name}</h2>
       <p>Intelligence: {member.intelligence}</p>
       <p>Specialization: {member.specialization}</p>
+      <Link
+        to={`/update/${params.id}`}>
+        <button>Edit</button>
+      </Link>
     </div>
   )
 }

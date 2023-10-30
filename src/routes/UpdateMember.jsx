@@ -68,7 +68,7 @@ const UpdateMember = () => {
             <br/>
 
             <label for="intelligence">New Intelligence</label><br />
-            <input type="text" id="intelligence" name="intelligence" value={newMember.intelligence} onChange={handleChange}/><br />
+            <input type="number" min="1" max="10" step="1" id="intelligence" name="intelligence" value={newMember.intelligence} onChange={handleChange}/><br />
             <br/>
 
             <label for="specialization">New Specialization</label><br />
