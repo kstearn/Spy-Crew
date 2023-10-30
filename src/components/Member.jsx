@@ -1,8 +1,13 @@
+import {Link} from 'react-router-dom';
 
-const Member = ({name, intelligence, specialization}) => {
+const Member = ({id, name, intelligence, specialization}) => {
   return(
     <div className="Member">
-      <h3>{name}</h3>
+      <Link
+        to={`/details/${id}`}>
+        <h3>{name}</h3>
+      </Link>
+      
       <p>Intelligence: {intelligence}</p>
       <p>Specialization: {specialization}</p>
     </div>

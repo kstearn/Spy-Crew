@@ -18,7 +18,7 @@ const ReadMember = () => {
     <div className="MembersList">
       {members ? 
         members.map((member, index) => {
-          return <Member key={index} name={member.name} intelligence={member.intelligence} specialization={member.specialization} />
+          return <Member key={index} id={member.id} name={member.name} intelligence={member.intelligence} specialization={member.specialization} />
         }) :
         "No crew members yet!"}
     </div>
